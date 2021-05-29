@@ -6,7 +6,6 @@ module.exports = class TestembedCommand extends BaseCommand {
   }
 
   async run(client, message, args) {
-    console.log('repling');
     const em = new Discord.MessageEmbed()
         .setColor('#04ff00')
         .setTitle('title 1')
